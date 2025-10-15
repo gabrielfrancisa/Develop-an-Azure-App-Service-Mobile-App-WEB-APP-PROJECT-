@@ -28,6 +28,7 @@ Select the Type Text icon to type the associated text into the current field in 
 7.	Windows Plan: (East US) (new)	AppPlan1
 8.	SKU and size:	Standard S1
 Please look over the documentation on creating an Azure Web App.
+
 >>> Open a new browser tab, go to the URL for the new mobile app at https://webappcreatedname.azurewebsites.net, and then verify that the default home page is displayed.
 You should see a default home page in the mobile phone form factor.
 
@@ -48,16 +49,22 @@ git clone https://github.com/Azure-Samples/dotnet-sqldb-tutorial.git
 cd ./dotnet-sqldb-tutorial/
 Close Windows PowerShell.
 >>> Return to Visual Studio 2022, and then open the DotNetAppSqlDb Project/Solution in C:\Users\Student\Documents\Visual Studio 2022\dotnet-sqldb-tutorial.
+
 >>> Wait for the Project to be opened.
 
 ## 3. Initiate a Publish operation for the DotNetAppSqlDb project to the existing ********1213 Azure App Service.
 >>> You may need to unpin the RDP session Connection bar and then select the background to see the Build menu and the Publish option. You can also use Alt+B to open the Build menu.z8amfz9t.jpg
+
 >>> Configure the publish profile to set the MyDbConnection connection string to Server=tcp:sql*******.database.windows.net,1433;Initial Catalog=sampledb;Persist Security Info=False;User ID=SQLAdmin;Password=AzureSQLPassw0rd!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;, before proceeding to Publish the project.
+
 >>> Wait for the publish operation to complete. You can ignore any vulnerability warnings. The publish operation will take approximately 2-3 minutes to complete. You should eventually see the home page for the mobile app in the browser. The mobile app's default home page
 
 ## If you receive a Runtime error, the code may not have fully published yet in the background. Runtime errorWait a minute and try to refresh the browser. You can also close the browser and select Publish again on the Publish page as the error may be cached. The home page for the mobile app may take an extra couple of minutes to load successfully for the first time.
+
 >>> Create 2 new to-do items with Descriptions of the Reserve meeting room for the team meeting. and send a meeting invitation to team members by using the TodoList App.
+
 >>> You should see the 2 new to-do items listed in the application. Todo list
+
 >>> Close the Microsoft Edge browser window. Leave Visual Studio open for the next task.
 
 ## 4. Verify the SQL database entries
