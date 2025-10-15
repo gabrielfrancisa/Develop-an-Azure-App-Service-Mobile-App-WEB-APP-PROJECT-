@@ -56,8 +56,7 @@ Close Windows PowerShell.
 >>> Wait for the publish operation to complete. You can ignore any vulnerability warnings. The publish operation will take approximately 2-3 minutes to complete. You should eventually see the home page for the mobile app in the browser. The mobile app's default home page
 
 ## If you receive a Runtime error, the code may not have fully published yet in the background. Runtime errorWait a minute and try to refresh the browser. You can also close the browser and select Publish again on the Publish page as the error may be cached. The home page for the mobile app may take an extra couple of minutes to load successfully for the first time.
-
-## Create 2 new to-do items with Descriptions of the Reserve meeting room for the team meeting. and send a meeting invitation to team members by using the TodoList App.
+>>> Create 2 new to-do items with Descriptions of the Reserve meeting room for the team meeting. and send a meeting invitation to team members by using the TodoList App.
 >>> You should see the 2 new to-do items listed in the application. Todo list
 >>> Close the Microsoft Edge browser window. Leave Visual Studio open for the next task.
 
