@@ -8,7 +8,7 @@ In this Project, we will create an Azure mobile app.
 3.	Verified the integration with an Azure SQL database.
 
 
-#Steps
+## Steps
 1.	First, I create an App Service Web App that will serve as the mobile app back end, and then configure a connection to a pre-existing Azure SQL database. 
 2.	Next, I configure a development environment on an Azure virtual machine, and then deploy the mobile app back end by using Visual Studio. 
 3.	Then you will test the mobile app by using the mobile device emulator in Visual Studio and Microsoft Edge.
@@ -17,8 +17,7 @@ In this Project, we will create an Azure mobile app.
 1.	Open Microsoft Edge, go to https://portal.azure.com, and sign in to the Azure portal 
 Select the Type Text icon to type the associated text into the current field in the virtual machine.
 
-## Create an Azure Web App by using the values in the following table. For any property that is not specified, use the default value.
-
+>>> Create an Azure Web App by using the values in the following table. For any property that is not specified, use the default value.
 ## Property         ------------------------     	Value
 1.	Resource Group:  gabriel-datalod55544381
 2.	Name:	Gabriel66844381
@@ -29,8 +28,7 @@ Select the Type Text icon to type the associated text into the current field in 
 7.	Windows Plan: (East US) (new)	AppPlan1
 8.	SKU and size:	Standard S1
 Please look over the documentation on creating an Azure Web App.
-
-## Open a new browser tab, go to the URL for the new mobile app at https://webappcreatedname.azurewebsites.net, and then verify that the default home page is displayed.
+>>> Open a new browser tab, go to the URL for the new mobile app at https://webappcreatedname.azurewebsites.net, and then verify that the default home page is displayed.
 You should see a default home page in the mobile phone form factor.
 
 ## 2. Publish an Azure mobile app back end by using Visual Studio
