@@ -62,8 +62,11 @@ Close Windows PowerShell.
 
 ## 4. Verify the SQL database entries
 >>> Unable to retrieve content from https://raw.githubusercontent.com/LODSContent/project-V3-Framework/main/Templates/Sections/Toggle.md
+
 >>> Open a new Microsoft Edge browser window, go to the Azure portal at https://portal.azure.com, and if necessary, sign in as a user.
+
 >>> Connect to the Query Editor for the sampledb SQL database as SQLAdmin using AzureSQLPassw0rd! as the password, and then verify the entries in the Todoes table used to store data for the mobile app.
+
 >>> Record the total number of items in the Todoes table in the following Total Number of Items text box, without leading or trailing spaces:
 
 ## Total Number of Items
