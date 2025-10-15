@@ -50,10 +50,9 @@ Close Windows PowerShell.
 >>> Return to Visual Studio 2022, and then open the DotNetAppSqlDb Project/Solution in C:\Users\Student\Documents\Visual Studio 2022\dotnet-sqldb-tutorial.
 >>> Wait for the Project to be opened.
 
-## Initiate a Publish operation for the DotNetAppSqlDb project to the existing ********1213 Azure App Service.
+## 3. Initiate a Publish operation for the DotNetAppSqlDb project to the existing ********1213 Azure App Service.
 >>> You may need to unpin the RDP session Connection bar and then select the background to see the Build menu and the Publish option. You can also use Alt+B to open the Build menu.z8amfz9t.jpg
-
-## Configure the publish profile to set the MyDbConnection connection string to Server=tcp:sql*******.database.windows.net,1433;Initial Catalog=sampledb;Persist Security Info=False;User ID=SQLAdmin;Password=AzureSQLPassw0rd!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;, before proceeding to Publish the project.
+>>> Configure the publish profile to set the MyDbConnection connection string to Server=tcp:sql*******.database.windows.net,1433;Initial Catalog=sampledb;Persist Security Info=False;User ID=SQLAdmin;Password=AzureSQLPassw0rd!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;, before proceeding to Publish the project.
 >>> Wait for the publish operation to complete. You can ignore any vulnerability warnings. The publish operation will take approximately 2-3 minutes to complete. You should eventually see the home page for the mobile app in the browser. The mobile app's default home page
 
 ## If you receive a Runtime error, the code may not have fully published yet in the background. Runtime errorWait a minute and try to refresh the browser. You can also close the browser and select Publish again on the Publish page as the error may be cached. The home page for the mobile app may take an extra couple of minutes to load successfully for the first time.
@@ -62,7 +61,7 @@ Close Windows PowerShell.
 >>> You should see the 2 new to-do items listed in the application. Todo list
 >>> Close the Microsoft Edge browser window. Leave Visual Studio open for the next task.
 
-## 3. Verify the SQL database entries
+## 4. Verify the SQL database entries
 >>> Unable to retrieve content from https://raw.githubusercontent.com/LODSContent/project-V3-Framework/main/Templates/Sections/Toggle.md
 >>> Open a new Microsoft Edge browser window, go to the Azure portal at https://portal.azure.com, and if necessary, sign in as a user.
 >>> Connect to the Query Editor for the sampledb SQL database as SQLAdmin using AzureSQLPassw0rd! as the password, and then verify the entries in the Todoes table used to store data for the mobile app.
@@ -70,6 +69,7 @@ Close Windows PowerShell.
 
 ## Total Number of Items
 >>> Record the number of the ID column for the first row in the following First ID text box, without leading or trailing spaces:
+
 >>> First ID 
 
 Congratulations.
